@@ -3,7 +3,10 @@
 //Nome e cognome
 
 var name = document.getElementById('name-form').value;
-var name = document.getElementById('family-name-form').value;
+var familyName = document.getElementById('family-name-form').value;
+
+console.log(name)
+console.log(familyName)
 
 // Km da percorrere
 
