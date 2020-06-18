@@ -40,14 +40,14 @@ if (categories == "kid") {
 
 ticketOn.addEventListener("click" , function(){
 
-  document.getElementByID('full-name').innerHTML = "Messere: " + name + " " + categories + " della casata: " + familyName;
+  document.getElementById('full-name').innerHTML = "Messere: " + name + " " + categories + " della casata: " + familyName;
   document.getElementById('full-price').innerHTML = "La tariffa per lo vostro percorso in carrozza ammonta a " + finalPrice.toFixed(2) + " Fiorini";
 
 })
 
 ticketOff.addEventListener("click" , function(){
 
-  document.getElementByID('full-name').innerHTML = "Messere: " + name + " " + categories + " della casata: " + familyName;
+  document.getElementById('full-name').innerHTML = "Messere: " + name + " " + categories + " della casata: " + familyName;
   document.getElementById('full-price').innerHTML = "La tariffa per lo vostro percorso in carrozza ammonta a " + finalPrice.toFixed(2) + " Fiorini";
 
 })
